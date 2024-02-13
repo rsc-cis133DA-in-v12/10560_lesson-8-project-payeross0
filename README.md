@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13845728&assignment_repo_type=AssignmentRepo)
 # Lesson 8 Project
 For this project, the computer company client is asking you to remove the internal CSS and use external CSS so that colors can be easily edited by the company in the future. They’ve provided a template as a starting point for making a new page that they'd like to have included on their website, an About page. You will be making the About page in this lesson according to the directions provided below.
 
