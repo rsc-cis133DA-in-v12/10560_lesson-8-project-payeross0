@@ -1,6 +1,16 @@
+/** 
+    Author: PAY2162183
+    Course: CIS133DA 10560
+    Lesson: 8
+**/
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+    margin: 0;
+}
+#wrapper {
+    background-color: lightgray;
+    margin-top: 50px;
 }
 /** Header Styles **/
 header {
@@ -17,6 +27,11 @@ h1 {
     margin: 0;
 }
 /** Navigation Styles **/
+nav {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
 nav ul { 
     list-style-type: none;
     background-color: #2d3437;
@@ -24,18 +39,59 @@ nav ul {
     padding: 0;
     margin: 0;
  }
-nav li { float: left; }
+nav li { 
+    float: left; 
+}
 nav a {
     display: block;
     color: white;
     text-decoration: none;
     padding: 20px;
- }
-nav a:hover { background-color: #135367; }
+}
+.active {
+    background-color: #135367;
+}
+nav a:hover { 
+    background-color: #135367; 
+}
+.right {
+    background-color: #857c72;
+    float: right;
+}
 /** Main Styles **/
 main { 
     padding: 20px; 
+    width: 900px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
 }
+aside {
+    background-color: rgb(142, 144, 145);
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+
+    img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        opacity: .6;
+    }
+    img:hover {
+        opacity: 100%;
+    }
+    small {
+        margin: 0;
+        color: lightgray;
+    }
+    a {
+        color: orange;
+    }
+}
+
 /** Footer Styles **/
 footer {
     background-color: #2d3437;
